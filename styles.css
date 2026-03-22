@@ -1,0 +1,66 @@
+header {
+    text-align: center;
+    background-color: #fff;
+    padding: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header a {
+    color: #808080;
+    text-decoration: none;
+}
+body {
+    background-color: #ff4d8842;
+    margin: 0;
+    padding: 0;
+}
+#aboutme {
+    background-color: #fff;
+    padding: 2em;
+    margin: 2em auto;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: #808080 0px 4px 8px;
+}
+#projects {
+    background-color: #fff;
+    padding: 2em;
+    margin: 2em auto;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: #808080 0px 4px 8px;
+}
+main a {
+  color: grey;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.project-list img {
+  width: 100%;   /* 👈 controls size */
+  height: auto;
+  border-radius: 10px;
+  border:3px solid #808080
+}
+#contact {
+    background-color: #fff;
+    padding: 2em;
+    margin: 2em auto;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: #808080 0px 4px 8px;
+}
+#footer {
+    text-align: center;
+    background-color: #fff;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: #808080 0px 4px 8px;
+}
